@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALPINA</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="icon" href="./svg/logo.svg">
+  </head>
+  <body>
+    <header>
+      <div class="container1">
+        <input class="hidden" type="checkbox" id="check">
+        <div
+          class="menu py-[12px] flex items-center justify-between border-b border-[#2E4460]"
+        >
+        <label class="hidden max-[770px]:block" for="check"><i class="fa-solid fa-xmark text-[24px] absolute top-5 right-5"></i></label>
+          <div class="flex items-center gap-1">
+            <a class="text-brack text-[18px] font-normal" href="#"
+              >Санкт-Петербург</a
+            >
+            <i class="fa-solid fa-chevron-down text-[12px] max-[770px]:hidden"></i>
+          </div>
+          <div class="flex gap-[23px] text-[14px] max-[770px]:flex-col">
+            <a href="#">О нас</a>
+            <a href="#">Наши салоны</a>
+            <a href="#">Оплата и доставка</a>
+            <a href="#">Для бизнеса</a>
+          </div>
+        </div>
+        <div class="flex items-center justify-between my-[31px]">
+          <div class="flex items-center gap-8">
+            <img class="w-[89px] h-[40px]" src="./svg/logo.svg" alt="" />
+            <div class="flex items-center gap-4">
+              <div
+                class="bg-[#f6f6f6] flex items-center justify-between p-[11px_12px_12px_13px] w-[600px] max-[1233px]:w-[400px] max-[610px]:w-[300px] max-[500px]:w-[200px] max-[390px]:hidden rounded-[8px]"
+              >
+                <input
+                  class="bg-transparent outline-none w-full"
+                  placeholder="Белый стул"
+                  type="search"
+                />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="flex flex-col max-[1113px]:hidden">
+                <a class="text-end" href="tel:8 800 700 40 24"
+                  >8 800 700 40 24</a
+                >
+                <div class="flex items-center gap-1">
+                  <a class="text-brack text-[18px] font-normal" href="#"
+                    >Позвонить или написать</a
+                  >
+                  <i class="fa-solid fa-chevron-down text-[12px]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-6 max-[770px]:hidden">
+            <img class="" src="./svg/User-1.svg" alt="" />
+            <img src="./svg/Chats.svg" alt="" />
+            <img src="./svg/like.svg" alt="" />
+            <img src="./svg/qulf.svg" alt="" />
+          </div>
+          <label class="hidden max-[770px]:block" for="check"
+            ><i class="fa-solid fa-bars text-[24px]"></i
+          ></label>
+        </div>
+      </div>
+    </header>
+    <section class="showcse container1">
+      <img class="w-full" src="./img/showcase-img.png" alt="" />
+    </section>
+
+    <section class="mt-[22px]">
+      <div class="container1">
+        <div class="flex items-center justify-between">
+          <h2 class="text-[20px] font-normal">Каталог по комнатам</h2>
+          <h2 class="text-[20px] max-[400px]:hidden">Все комнаты</h2>
+        </div>
+        <div
+          class="mt-[14px] grid grid-cols-3 gap-4 max-[1000px]:grid-cols-2 max-[650px]:grid-cols-1"
+        >
+          <div class="flex flex-col gap-2">
+            <img src="./img/Каталог-1.png" alt="" />
+            <p class="text-[16px]">Ванная</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <img src="./img/Каталог-2.png" alt="" />
+            <p class="text-[16px]">Ванная</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <img src="./img/Каталог-3.png" alt="" />
+            <p class="text-[16px]">Ванная</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-[50px]">
+      <div class="container1">
+        <div class="flex items-center justify-between">
+          <h2 class="text-[20px] font-normal">Популярные категории</h2>
+          <h2 class="text-[20px] max-[400px]:hidden">Все категории</h2>
+        </div>
+        <div
+          class="mt-4 grid grid-cols-6 gap-4 max-[1040px]:grid-cols-3 max-[722px]:grid-cols-2"
+        >
+          <div class="flex flex-col justify-center items-center gap-[14px]">
+            <div class="bg-fb p-[29px_30px]">
+              <img src="./img/категории-1.png" alt="" />
+            </div>
+            <p class="text-[16px]">Кресла</p>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-[14px]">
+            <div class="bg-fb p-[29px_30px]">
+              <img src="./img/категории-2.png" alt="" />
+            </div>
+            <p class="text-[16px]">Столы</p>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-[14px]">
+            <div class="bg-fb p-[29px_30px]">
+              <img src="./img/категории-3.png" alt="" />
+            </div>
+            <p class="text-[16px]">Декор</p>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-[14px]">
+            <div class="bg-fb p-[29px_30px]">
+              <img src="./img/категории-4.png" alt="" />
+            </div>
+            <p class="text-[16px]">Стулья</p>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-[14px]">
+            <div class="bg-fb p-[29px_30px]">
+              <img src="./img/категории-5.png" alt="" />
+            </div>
+            <p class="text-[16px]">Стулья</p>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-[14px]">
+            <div class="bg-fb p-[29px_30px]">
+              <img src="./img/категории-6.png" alt="" />
+            </div>
+            <p class="text-[16px]">Стулья</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-fb mt-[56px]">
+      <div
+        class="container1 p-[32px] flex items-center justify-between max-[750px]:flex-col max-[750px]:gap-5"
+      >
+        <h2
+          class="text-[#1a344d] text-[24px] max-[595px]:text-center max-[350px]:text-[18px]"
+        >
+          Информационный блок про работу с бизнесом
+        </h2>
+        <button
+          class="text-[14px] border border-[#000] p-[7px_14px] hover:border-none hover:rounded-[8px] hover:text-[16px] hover:scale-95 hover:transition-all hover:duration-1000 hover:bg-[#e4e4e4] max-[750px]:w-full"
+        >
+          Узнать подробнее
+        </button>
+      </div>
+    </section>
+
+    <section class="mt-[80px]">
+      <div class="container1">
+        <div class="flex items-center justify-between">
+          <h2 class="text-[20px] font-normal">Популярные категории</h2>
+          <h2 class="text-[20px] max-[400px]:hidden">Все категории</h2>
+        </div>
+        <div
+          class="mt-6 grid grid-cols-4 gap-[24px_17px] max-[1300px]:grid-cols-3 max-[970px]:grid-cols-2 max-[640px]:grid-cols-1"
+        >
+          <!-- 1 -->
+          <div class="flex flex-col gap-4 relative">
+            <div class="bg-fb p-[32px]">
+              <img
+                class="w-[268px] h-[255px]"
+                src="./img/Лучшее-1.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex items-center justify-between absolute top-0 w-full p-[10px]"
+            >
+              <button class="bg-black text-white p-[4px_6px] rounded-[8px]">
+                Распродажа
+              </button>
+              <i class="fa-regular text-[24px] fa-heart"></i>
+            </div>
+            <div class="text-[14px] flex justify-between px-[10px]">
+              <h2 class="max-w-[200px]">
+                Декоративный куст, с шикарными листьями, горшком
+              </h2>
+              <p>2 000 руб.</p>
+            </div>
+            <p class="text-[10px] pl-[10px]">120 × 212 × 46</p>
+            <div class="flex items-center justify-between px-[10px]">
+              <div class="flex gap-3">
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <button class="border p-[6px_8px] text-[10px]">+5</button>
+              </div>
+              <img src="./svg/qulf.svg" alt="" />
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="flex flex-col gap-4 relative">
+            <div class="bg-fb p-[32px]">
+              <img
+                class="w-[268px] h-[255px]"
+                src="./img/Лучшее-2.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex items-center justify-between absolute top-0 w-full p-[10px]"
+            >
+              <button class="bg-black text-white p-[4px_6px] rounded-[8px]">
+                Распродажа
+              </button>
+              <i class="fa-regular text-[24px] fa-heart"></i>
+            </div>
+            <div class="text-[14px] flex justify-between px-[10px]">
+              <h2 class="max-w-[200px]">
+                Декоративный куст, с шикарными листьями, горшком
+              </h2>
+              <p>2 000 руб.</p>
+            </div>
+            <p class="text-[10px] pl-[10px]">120 × 212 × 46</p>
+            <div class="flex items-center justify-between px-[10px]">
+              <div class="flex gap-3">
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <button class="border p-[6px_8px] text-[10px]">+5</button>
+              </div>
+              <img src="./svg/qulf.svg" alt="" />
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="flex flex-col gap-4 relative">
+            <div class="bg-fb p-[32px]">
+              <img
+                class="w-[268px] h-[255px]"
+                src="./img/Лучшее-3.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex items-center justify-between absolute top-0 w-full p-[10px]"
+            >
+              <button class="bg-black text-white p-[4px_6px] rounded-[8px]">
+                Распродажа
+              </button>
+              <i class="fa-regular text-[24px] fa-heart"></i>
+            </div>
+            <div class="text-[14px] flex justify-between px-[10px]">
+              <h2 class="max-w-[200px]">
+                Декоративный куст, с шикарными листьями, горшком
+              </h2>
+              <p>2 000 руб.</p>
+            </div>
+            <p class="text-[10px] pl-[10px]">120 × 212 × 46</p>
+            <div class="flex items-center justify-between px-[10px]">
+              <div class="flex gap-3">
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <button class="border p-[6px_8px] text-[10px]">+5</button>
+              </div>
+              <img src="./svg/qulf.svg" alt="" />
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="flex flex-col gap-4 relative">
+            <div class="bg-fb p-[32px]">
+              <img
+                class="w-[268px] h-[255px]"
+                src="./img/Лучшее-1.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex items-center justify-between absolute top-0 w-full p-[10px]"
+            >
+              <button class="bg-black text-white p-[4px_6px] rounded-[8px]">
+                Распродажа
+              </button>
+              <i class="fa-regular text-[24px] fa-heart"></i>
+            </div>
+            <div class="text-[14px] flex justify-between px-[10px]">
+              <h2 class="max-w-[200px]">
+                Декоративный куст, с шикарными листьями, горшком
+              </h2>
+              <p>2 000 руб.</p>
+            </div>
+            <p class="text-[10px] pl-[10px]">120 × 212 × 46</p>
+            <div class="flex items-center justify-between px-[10px]">
+              <div class="flex gap-3">
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <button class="border p-[6px_8px] text-[10px]">+5</button>
+              </div>
+              <img src="./svg/qulf.svg" alt="" />
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="flex flex-col gap-4 relative">
+            <div class="bg-fb p-[32px]">
+              <img
+                class="w-[268px] h-[255px]"
+                src="./img/Лучшее-5.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex items-center justify-between absolute top-0 w-full p-[10px]"
+            >
+              <button class="bg-black text-white p-[4px_6px] rounded-[8px]">
+                Распродажа
+              </button>
+              <i class="fa-regular text-[24px] fa-heart"></i>
+            </div>
+            <div class="text-[14px] flex justify-between px-[10px]">
+              <h2 class="max-w-[200px]">
+                Декоративный куст, с шикарными листьями, горшком
+              </h2>
+              <p>2 000 руб.</p>
+            </div>
+            <p class="text-[10px] pl-[10px]">120 × 212 × 46</p>
+            <div class="flex items-center justify-between px-[10px]">
+              <div class="flex gap-3">
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <button class="border p-[6px_8px] text-[10px]">+5</button>
+              </div>
+              <img src="./svg/qulf.svg" alt="" />
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="flex flex-col gap-4 relative">
+            <div class="bg-fb p-[32px]">
+              <img
+                class="w-[268px] h-[255px]"
+                src="./img/Лучшее-6.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex items-center justify-between absolute top-0 w-full p-[10px]"
+            >
+              <button class="bg-black text-white p-[4px_6px] rounded-[8px]">
+                Распродажа
+              </button>
+              <i class="fa-regular text-[24px] fa-heart"></i>
+            </div>
+            <div class="text-[14px] flex justify-between px-[10px]">
+              <h2 class="max-w-[200px]">
+                Декоративный куст, с шикарными листьями, горшком
+              </h2>
+              <p>2 000 руб.</p>
+            </div>
+            <p class="text-[10px] pl-[10px]">120 × 212 × 46</p>
+            <div class="flex items-center justify-between px-[10px]">
+              <div class="flex gap-3">
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <button class="border p-[6px_8px] text-[10px]">+5</button>
+              </div>
+              <img src="./svg/qulf.svg" alt="" />
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="flex flex-col gap-4 relative">
+            <div class="bg-fb p-[32px]">
+              <img
+                class="w-[268px] h-[255px]"
+                src="./img/Лучшее-7.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex items-center justify-between absolute top-0 w-full p-[10px]"
+            >
+              <button class="bg-black text-white p-[4px_6px] rounded-[8px]">
+                Распродажа
+              </button>
+              <i class="fa-regular text-[24px] fa-heart"></i>
+            </div>
+            <div class="text-[14px] flex justify-between px-[10px]">
+              <h2 class="max-w-[200px]">
+                Декоративный куст, с шикарными листьями, горшком
+              </h2>
+              <p>2 000 руб.</p>
+            </div>
+            <p class="text-[10px] pl-[10px]">120 × 212 × 46</p>
+            <div class="flex items-center justify-between px-[10px]">
+              <div class="flex gap-3">
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <button class="border p-[6px_8px] text-[10px]">+5</button>
+              </div>
+              <img src="./svg/qulf.svg" alt="" />
+            </div>
+          </div>
+          <!-- 8 -->
+          <div class="flex flex-col gap-4 relative">
+            <div class="bg-fb p-[32px]">
+              <img
+                class="w-[268px] h-[255px]"
+                src="./img/Лучшее-3.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex items-center justify-between absolute top-0 w-full p-[10px]"
+            >
+              <button class="bg-black text-white p-[4px_6px] rounded-[8px]">
+                Распродажа
+              </button>
+              <i class="fa-regular text-[24px] fa-heart"></i>
+            </div>
+            <div class="text-[14px] flex justify-between px-[10px]">
+              <h2 class="max-w-[200px]">
+                Декоративный куст, с шикарными листьями, горшком
+              </h2>
+              <p>2 000 руб.</p>
+            </div>
+            <p class="text-[10px] pl-[10px]">120 × 212 × 46</p>
+            <div class="flex items-center justify-between px-[10px]">
+              <div class="flex gap-3">
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <img src="./img/gul.png" alt="" />
+                <button class="border p-[6px_8px] text-[10px]">+5</button>
+              </div>
+              <img src="./svg/qulf.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-[50px]">
+      <div class="container1">
+        <div class="flex items-center justify-between">
+          <h2 class="text-[20px] font-normal">Готовые коллекции</h2>
+          <h2 class="text-[20px] max-[400px]:hidden">Все комнаты</h2>
+        </div>
+        <div
+          class="mt-[14px] grid grid-cols-3 gap-4 max-[1000px]:grid-cols-2 max-[650px]:grid-cols-1"
+        >
+          <div class="flex flex-col gap-2">
+            <img src="./img/коллекции-1.png" alt="" />
+            <p class="text-[16px]">Название коллекции</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <img src="./img/коллекции-2.png" alt="" />
+            <p class="text-[16px]">Название коллекции</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <img src="./img/коллекции-3.png" alt="" />
+            <p class="text-[16px]">Название коллекции</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-[800px]:mt-[20px]">
+      <div
+        class="container1 grid grid-cols-2 gap-[15px] max-[1150px]:grid-cols-1"
+      >
+        <div
+          class="bg-fb p-[52px] flex flex-col gap-[120px] max-[700px]:gap-11 max-[800px]:p-[20px] rounded-[8px]"
+        >
+          <h2
+            class="text-[34px] font-medium text-[#079294] max-w-[340px] max-[600px]:text-center max-[454px]:text-[25px] max-[344px]:text-[18px]"
+          >
+            Раздел для десигна о дисигн проектах и дисигнераз
+          </h2>
+          <p
+            class="text-[16px] max-w-[500px] max-[600px]:text-center max-[300px]:text-[14px]"
+          >
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+            латинице с начала XVI века.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-3 gap-5 max-[750px]:grid-cols-2 max-[490px]:grid-cols-1"
+        >
+          <div class="bg-fb flex flex-col items-center p-[30px] rounded-[8px]">
+            <img class="w-[180px]" src="./img/Конструктор.jpg" alt="" />
+            <p>Конструктор</p>
+          </div>
+          <div class="bg-fb flex flex-col items-center p-[30px] rounded-[8px]">
+            <img class="w-[180px]" src="./img/Конструктор.jpg" alt="" />
+            <p>Конструктор</p>
+          </div>
+          <div class="bg-fb flex flex-col items-center p-[30px] rounded-[8px]">
+            <img class="w-[180px]" src="./img/Конструктор.jpg" alt="" />
+            <p>Конструктор</p>
+          </div>
+          <div class="bg-fb flex flex-col items-center p-[30px] rounded-[8px]">
+            <img class="w-[180px]" src="./img/Конструктор.jpg" alt="" />
+            <p>Конструктор</p>
+          </div>
+          <div class="bg-fb flex flex-col items-center p-[30px] rounded-[8px]">
+            <img class="w-[180px]" src="./img/Конструктор.jpg" alt="" />
+            <p>Конструктор</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-[80px]">
+      <div class="container1">
+        <div
+          class="flex justify-between border-t border-b py-[30px] max-[948px]:flex-wrap max-[334px]:gap-5"
+        >
+          <div class="flex flex-col gap-4">
+            <h2 class="text-[16px]">Каталог</h2>
+            <div class="flex flex-col gap-2 text-[14px]">
+              <a href="#">Акции</a>
+              <a href="#">Мебель</a>
+              <a href="#">Список комнат</a>
+              <a href="#">Товары для дома</a>
+              <a href="#">Фурнитура и комплектующие</a>
+              <a href="#">Плитка, керамогранит и мозаика</a>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="flex flex-col gap-4">
+            <h2 class="text-[16px]">Покупателю</h2>
+            <div class="flex flex-col gap-2 text-[14px]">
+              <a href="#">Мебель на заказ</a>
+              <a href="#">Дизайн-проекты</a>
+              <a href="#">Наши салоны</a>
+              <a href="#">Оплата и доставка</a>
+              <a href="#">О нас</a>
+              <a href="#">Для бизнеса</a>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="flex flex-col gap-4">
+            <h2 class="text-[16px]">Контакты</h2>
+            <div>
+              <p>Единая справочная:</p>
+              <a href="tel:8 800 700 40 24">8 800 700 40 24</a>
+              <p class="max-w-[260px]">
+                Звонок по России бесплатный. Режим работы: с 02:00 до 23:00
+                (МСК).
+              </p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <a href="#">Присоединяйтесь к нам в социальных сетях</a>
+              <div class="flex items-center gap-4">
+                <img class="w-[21px]" src="./svg/youtube.svg" alt="" />
+                <img class="w-[21px]" src="./svg/instagram.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="flex flex-col gap-4">
+            <h2 class="text-[16px]">Мы принимаем к оплате</h2>
+            <img class="w-[192px]" src="./img/payme.png" alt="" />
+            <div class="pt-[64px] flex flex-col gap-3">
+              <p>Нам важно ваше мнение</p>
+              <button class="border w-[192px] py-[8px]">Написать нам</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-between mt-4 max-[930px]:flex-col">
+          <div class="text-[14px] flex items-center gap-[81px] max-[760px]:flex-col max-[760px]:gap-6 max-[760px]:text-center">
+            <p>
+              © 2020 Rendement. All rights reserved Политика конфиденциальности
+            </p>
+            <p>Политика конфиденциальности</p>
+          </div>
+          <p class="text-[14px]">Developed by Legacystudio</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
